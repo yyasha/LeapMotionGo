@@ -38,7 +38,6 @@ func jsonServer(w http.ResponseWriter, r *http.Request) {
 
     switch r.Method {
     case "GET":
-            // j, _ := json.Marshal(frame)
             w.Write(Result)
     default:
             w.WriteHeader(http.StatusMethodNotAllowed)
