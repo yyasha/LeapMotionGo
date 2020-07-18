@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"encoding/json"
-	"github.com/yyasha/leap"
+	"github.com/yyasha/LeapMotionGo"
 	"net/http"
 	"runtime"
 )
